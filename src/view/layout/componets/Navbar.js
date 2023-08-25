@@ -38,7 +38,7 @@ const Navbar = () => {
       <div className="container">
         {/* Logo container*/}
         <div>
-          <a className="logo" href="/">
+          <a className="logo" onClick={() => navigate("/")}>
             <span className="logo-light-mode">
               <img
                 src={require("../../../img/logocja.jpg")}
@@ -86,24 +86,27 @@ const Navbar = () => {
           {/* Navigation Menu*/}
           <ul className="navigation-menu nav-light">
             <li className="active">
-              <a href="/" className="sub-menu-item active">
+              <a onClick={() => navigate("/")} className="sub-menu-item active">
                 Accueil
               </a>
             </li>
             <li>
-              <a href="/apropos" className="sub-menu-item">
+              <a onClick={() => navigate("/apropos")} className="sub-menu-item">
                 {" "}
                 A propos
               </a>
             </li>
             <li>
-              <a href="/produits" className="sub-menu-item">
+              <a
+                onClick={() => navigate("/produits")}
+                className="sub-menu-item"
+              >
                 {" "}
                 Produits
               </a>
             </li>
             <li>
-              <a href="/contact" className="sub-menu-item">
+              <a onClick={() => navigate("/contact")} className="sub-menu-item">
                 Contact
               </a>
             </li>
