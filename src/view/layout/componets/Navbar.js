@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(true);
 
   const toggleMenu = () => {
@@ -38,7 +40,7 @@ const Navbar = () => {
       <div className="container">
         {/* Logo container*/}
         <div>
-          <a className="logo" onClick={() => navigate("/")}>
+          <a className="logo cursor-pointer" onClick={() => navigate("/")}>
             <span className="logo-light-mode">
               <img
                 src={require("../../../img/logocja.jpg")}
@@ -86,12 +88,18 @@ const Navbar = () => {
           {/* Navigation Menu*/}
           <ul className="navigation-menu nav-light">
             <li className="active">
-              <a onClick={() => navigate("/")} className="sub-menu-item active">
+              <a
+                onClick={() => navigate("/")}
+                className="sub-menu-item active cursor-pointer"
+              >
                 Accueil
               </a>
             </li>
             <li>
-              <a onClick={() => navigate("/apropos")} className="sub-menu-item">
+              <a
+                onClick={() => navigate("/apropos")}
+                className="sub-menu-item cursor-pointer"
+              >
                 {" "}
                 A propos
               </a>
@@ -99,14 +107,17 @@ const Navbar = () => {
             <li>
               <a
                 onClick={() => navigate("/produits")}
-                className="sub-menu-item"
+                className="sub-menu-item cursor-pointer"
               >
                 {" "}
                 Produits
               </a>
             </li>
             <li>
-              <a onClick={() => navigate("/contact")} className="sub-menu-item">
+              <a
+                onClick={() => navigate("/contact")}
+                className="sub-menu-item cursor-pointer"
+              >
                 Contact
               </a>
             </li>
