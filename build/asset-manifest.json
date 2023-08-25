@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.24119a90.css",
+    "main.js": "/static/js/main.24fcf009.js",
+    "static/media/3.jpg": "/static/media/3.b26c6173d9c6ee5c6e5a.jpg",
+    "static/media/cjagabes.jpg": "/static/media/cjagabes.ecc7734928aa0ea3691f.jpg",
+    "static/media/2.jpg": "/static/media/2.3379cc0159e557aa3be2.jpg",
+    "static/media/cjajerba1.jpg": "/static/media/cjajerba1.8a7e3c8a005c48cfc623.jpg",
+    "static/media/SÉRIE TW60 CONFORT.png": "/static/media/SÉRIE TW60 CONFORT.eb66f0cd7c35403d7795.png",
+    "static/media/1.jpg": "/static/media/1.8cd79aa24fda425db61f.jpg",
+    "static/media/40_elipse.png": "/static/media/40_elipse.23065a30ff52d22f386c.png",
+    "static/media/C1.jpg": "/static/media/C1.8cd17274ec3f13360a77.jpg",
+    "static/media/C3.jpg": "/static/media/C3.a9cb79310583e727ac3d.jpg",
+    "static/media/C2.jpg": "/static/media/C2.aed3decb04eee671c2fd.jpg",
+    "static/media/logocja.jpg": "/static/media/logocja.fadcf3cf025e484d78a8.jpg",
+    "index.html": "/index.html",
+    "main.24119a90.css.map": "/static/css/main.24119a90.css.map",
+    "main.24fcf009.js.map": "/static/js/main.24fcf009.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24119a90.css",
+    "static/js/main.24fcf009.js"
+  ]
+}
