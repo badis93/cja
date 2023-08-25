@@ -15,6 +15,11 @@ const Navbar = () => {
     setIsSubMenuOpen(!isSubMenuOpen);
   };
 
+  const navlink = (path) => {
+    navigate(path);
+    toggleMenu();
+  };
+
   const [isSubSubMenuOpen, setIsSubSubMenuOpen] = useState(false);
 
   const toggleSubSubMenu = () => {
@@ -89,7 +94,7 @@ const Navbar = () => {
           <ul className="navigation-menu nav-light">
             <li className="active">
               <a
-                onClick={() => navigate("/")}
+                onClick={() => navlink("/")}
                 className="sub-menu-item active cursor-pointer"
               >
                 Accueil
@@ -97,7 +102,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                onClick={() => navigate("/apropos")}
+                onClick={() => navlink("/apropos")}
                 className="sub-menu-item cursor-pointer"
               >
                 {" "}
@@ -106,7 +111,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                onClick={() => navigate("/produits")}
+                onClick={() => navlink("/produits")}
                 className="sub-menu-item cursor-pointer"
               >
                 {" "}
@@ -115,7 +120,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                onClick={() => navigate("/contact")}
+                onClick={() => navlink("/contact")}
                 className="sub-menu-item cursor-pointer"
               >
                 Contact

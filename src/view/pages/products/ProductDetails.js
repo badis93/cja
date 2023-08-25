@@ -9,7 +9,7 @@ const ProductDetails = () => {
   return (
     first && (
       <>
-        <div className="container">
+        <div className="container mt-100">
           <div className="row align-items-center">
             <div className="col-md-5">
               <div className="tns-outer" id="tns1-ow">

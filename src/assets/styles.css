@@ -308,9 +308,9 @@ p {
  line-height:62px
 }
 #topnav.nav-sticky {
- background: linear-gradient(45deg, #7fafeeef, #a84740ea, #1664cae8); /* change navbar color wehn scrol */
- -webkit-box-shadow:0 0 3px rgba(60,72,88,.15);
- box-shadow:0 0 3px rgba(60,72,88,.15)
+ background: #fff; /* change navbar color wehn scrol */
+ -webkit-box-shadow:0 0 50px rgba(60,72,88,.15);
+ box-shadow:0 0 50px rgba(20, 22, 24, 0.15)
 }
 #topnav.nav-sticky .navigation-menu.nav-light>li>a {
  color:#212529
@@ -1317,6 +1317,9 @@ p {
 }
 .sidebar .widget .post-recent:last-child {
  padding-bottom:0
+}
+.mt-86{
+    margin-top: 86px !important;
 }
 .sidebar .widget .post-recent .post-recent-thumb {
  width:25%
@@ -5789,6 +5792,9 @@ html[dir=rtl] .tns-visually-hidden {
 .mt-100 {
  margin-top:100px
 }
+.mt-10 {
+    margin-top:10px
+   }
 .text-slider {
  margin:0 auto;
  position:relative;
