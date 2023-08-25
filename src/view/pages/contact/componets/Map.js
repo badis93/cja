@@ -171,10 +171,13 @@ const Map = () => {
               <div className="card map map-height-two rounded map-gray border-0">
                 <div className="card-body p-0">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d828.3470852848617!2d10.866284008361335!3d33.853881400516116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13aaa5fe61902185%3A0xd02370249d477b6!2zQ0pBINmF2LXYsdmBINis2LHYqNmHINmE2YTYp9mE2YXZhtmK2YjZhQ!5e0!3m2!1sfr!2stn!4v1692970725753!5m2!1sfr!2stn"
                     style={{ border: 0 }}
-                    className="rounded"
                     allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    width={600}
+                    height={450}
                   />
                 </div>
               </div>
