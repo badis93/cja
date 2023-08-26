@@ -4,8 +4,7 @@ import { ProductList } from "../../../../enum/ProductList";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-// import Categ4 from "./Categ4";
-import Gridtest from "./Gridtest";
+
 import { useNavigate } from "react-router-dom";
 const Containers = () => {
   const navigate = useNavigate();
@@ -74,7 +73,7 @@ const Containers = () => {
                 return (
                   <Col sm={6} md={3}>
                     <div
-                      className="card shop-list border-0 shadow position-relative overflow-hidden cursor-pointer"
+                      className="card shop-list border-0 shadow position-relative overflow-hidden cursor-pointer mt-10"
                       onClick={() => goTo(element.id)}
                     >
                       <div className="shop-image position-relative overflow-hidden shadow d-flex justify-content-center">
@@ -87,9 +86,9 @@ const Containers = () => {
                       <div className="card-body content p-4">
                         <a
                           href="property-detail.html"
-                          className="text-dark product-name h6"
+                          className="text-dark product-name h6 d-flex justify-content-center"
                         >
-                          10765 Hillshire Ave, Baton Rouge, LA 70810, USA
+                          {element.name}
                         </a>
                       </div>
                     </div>
@@ -105,48 +104,23 @@ const Containers = () => {
                 return (
                   <Col sm={6} md={3}>
                     <div
-                      className="card border-0 work-container work-primary work-grid position-relative d-block overflow-hidden rounded"
+                      className="card shop-list border-0 shadow position-relative overflow-hidden cursor-pointer mt-10"
                       onClick={() => goTo(element.id)}
                     >
-                      <div className="card-body p-0">
+                      <div className="shop-image position-relative overflow-hidden shadow d-flex justify-content-center">
+                        <img
+                          src={element.img}
+                          className="img-fluid h-300px"
+                          alt=""
+                        />
+                      </div>
+                      <div className="card-body content p-4">
                         <a
-                          href="assets/images/work/20.jpg"
-                          className="lightbox d-inline-block tobii-zoom"
-                          title=""
+                          href="property-detail.html"
+                          className="text-dark product-name h6 d-flex justify-content-center"
                         >
-                          <img
-                            src={element.img}
-                            width={250}
-                            className="img-fluid"
-                            alt="work-image"
-                          />
-                          <div className="tobii-zoom__icon">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={24}
-                              height={24}
-                              viewBox="0 0 24 24"
-                              aria-hidden="true"
-                              focusable="false"
-                            >
-                              <path d="M21 16v5h-5" />
-                              <path d="M8 21H3v-5" />
-                              <path d="M16 3h5v5" />
-                              <path d="M3 8V3h5" />
-                            </svg>
-                          </div>
+                          {element.name}
                         </a>
-                        <div className="content p-3">
-                          <h5 className="mb-0">
-                            <a
-                              href="portfolio-detail-one.html"
-                              className="text-dark title"
-                            >
-                              Iphone mockup
-                            </a>
-                          </h5>
-                          <h6 className="text-muted tag mb-0">Branding</h6>
-                        </div>
                       </div>
                     </div>
                   </Col>
@@ -161,48 +135,85 @@ const Containers = () => {
                 return (
                   <Col sm={6} md={3}>
                     <div
-                      className="card border-0 work-container work-primary work-grid position-relative d-block overflow-hidden rounded"
+                      className="card shop-list border-0 shadow position-relative overflow-hidden cursor-pointer mt-10"
                       onClick={() => goTo(element.id)}
                     >
-                      <div className="card-body p-0">
+                      <div className="shop-image position-relative overflow-hidden shadow d-flex justify-content-center">
+                        <img
+                          src={element.img}
+                          className="img-fluid h-300px"
+                          alt=""
+                        />
+                      </div>
+                      <div className="card-body content p-4">
                         <a
-                          href="assets/images/work/20.jpg"
-                          className="lightbox d-inline-block tobii-zoom"
-                          title=""
+                          href="property-detail.html"
+                          className="text-dark product-name h6 d-flex justify-content-center"
                         >
-                          <img
-                            src={element.img}
-                            width={250}
-                            className="img-fluid"
-                            alt="work-image"
-                          />
-                          <div className="tobii-zoom__icon">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width={24}
-                              height={24}
-                              viewBox="0 0 24 24"
-                              aria-hidden="true"
-                              focusable="false"
-                            >
-                              <path d="M21 16v5h-5" />
-                              <path d="M8 21H3v-5" />
-                              <path d="M16 3h5v5" />
-                              <path d="M3 8V3h5" />
-                            </svg>
-                          </div>
+                          {element.name}
                         </a>
-                        <div className="content p-3">
-                          <h5 className="mb-0">
-                            <a
-                              href="portfolio-detail-one.html"
-                              className="text-dark title"
-                            >
-                              Iphone mockup
-                            </a>
-                          </h5>
-                          <h6 className="text-muted tag mb-0">Branding</h6>
-                        </div>
+                      </div>
+                    </div>
+                  </Col>
+                );
+              })}
+          </Row>
+        </Container>
+        <Container>
+          <Row className="justify-content-md-center">
+            {activeClassId === 4 &&
+              ProductList.filter((item) => item.type == 3).map((element) => {
+                return (
+                  <Col sm={6} md={3}>
+                    <div
+                      className="card shop-list border-0 shadow position-relative overflow-hidden cursor-pointer mt-10"
+                      onClick={() => goTo(element.id)}
+                    >
+                      <div className="shop-image position-relative overflow-hidden shadow d-flex justify-content-center">
+                        <img
+                          src={element.img}
+                          className="img-fluid h-300px"
+                          alt=""
+                        />
+                      </div>
+                      <div className="card-body content p-4">
+                        <a
+                          href="property-detail.html"
+                          className="text-dark product-name h6 d-flex justify-content-center"
+                        >
+                          {element.name}
+                        </a>
+                      </div>
+                    </div>
+                  </Col>
+                );
+              })}
+          </Row>
+        </Container>
+        <Container>
+          <Row className="justify-content-md-center">
+            {activeClassId === 5 &&
+              ProductList.filter((item) => item.type == 4).map((element) => {
+                return (
+                  <Col sm={6} md={3}>
+                    <div
+                      className="card shop-list border-0 shadow position-relative overflow-hidden cursor-pointer mt-10"
+                      onClick={() => goTo(element.id)}
+                    >
+                      <div className="shop-image position-relative overflow-hidden shadow d-flex justify-content-center">
+                        <img
+                          src={element.img}
+                          className="img-fluid h-300px"
+                          alt=""
+                        />
+                      </div>
+                      <div className="card-body content p-4">
+                        <a
+                          href="property-detail.html"
+                          className="text-dark product-name h6 d-flex justify-content-center"
+                        >
+                          {element.name}
+                        </a>
                       </div>
                     </div>
                   </Col>

@@ -18,7 +18,7 @@ const Gridtest = () => {
                   title=""
                 >
                   <img
-                    src={require("../img/SÉRIE TW60 CONFORT.png")}
+                    src={require("../../../../img/SÉRIE TW60 CONFORT.png")}
                     width={250}
                     className="img-fluid"
                     alt="work-image"
@@ -62,7 +62,7 @@ const Gridtest = () => {
                   title=""
                 >
                   <img
-                    src={require("../img/SÉRIE TW60 CONFORT.png")}
+                    src={require("../../../../img/SÉRIE TW60 CONFORT.png")}
                     width={250}
                     className="img-fluid"
                     alt="work-image"
@@ -106,7 +106,7 @@ const Gridtest = () => {
                   title=""
                 >
                   <img
-                    src={require("../img/SÉRIE TW60 CONFORT.png")}
+                    src={require("../../../../img/SÉRIE TW60 CONFORT.png")}
                     width={250}
                     className="img-fluid"
                     alt="work-image"
@@ -150,7 +150,7 @@ const Gridtest = () => {
                   title=""
                 >
                   <img
-                    src={require("../img/SÉRIE TW60 CONFORT.png")}
+                    src={require("../../../../img/SÉRIE TW60 CONFORT.png")}
                     width={250}
                     className="img-fluid"
                     alt="work-image"
