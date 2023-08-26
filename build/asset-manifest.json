@@ -1,24 +1,45 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e8368e8.css",
-    "main.js": "/static/js/main.6fdd69f9.js",
+    "main.css": "/static/css/main.899ded75.css",
+    "main.js": "/static/js/main.6a70ce9f.js",
+    "static/media/cloisons_lisses_joint_creux.png": "/static/media/cloisons_lisses_joint_creux.595a54baba1192e205e1.png",
+    "static/media/serie-volets-coulissants.png": "/static/media/serie-volets-coulissants.308345a55c2449bd3e87.png",
+    "static/media/serie-grille-de-ventilation.png": "/static/media/serie-grille-de-ventilation.71402609bc7a3cc008aa.png",
+    "static/media/garde_corps_encastre_gs.png": "/static/media/garde_corps_encastre_gs.3c3e0b495ac499b2aec2.png",
+    "static/media/serie15_ellipse.png": "/static/media/serie15_ellipse.161a2b825600a443b6fc.png",
     "static/media/3.jpg": "/static/media/3.b26c6173d9c6ee5c6e5a.jpg",
     "static/media/cjagabes.jpg": "/static/media/cjagabes.ecc7734928aa0ea3691f.jpg",
     "static/media/2.jpg": "/static/media/2.3379cc0159e557aa3be2.jpg",
+    "static/media/pergola_bioclimatique_tpr19.png": "/static/media/pergola_bioclimatique_tpr19.4c124c123b8fea250021.png",
+    "static/media/serie52_horizon_vec.png": "/static/media/serie52_horizon_vec.84220a6911659d8c6ec7.png",
+    "static/media/serie_75_blindee.png": "/static/media/serie_75_blindee.386ec8a801a573bf8c5a.png",
+    "static/media/serie84_evoulution_vec.png": "/static/media/serie84_evoulution_vec.8038117359d3973e1db9.png",
     "static/media/cjajerba1.jpg": "/static/media/cjajerba1.8a7e3c8a005c48cfc623.jpg",
-    "static/media/SÉRIE TW60 CONFORT.png": "/static/media/SÉRIE TW60 CONFORT.eb66f0cd7c35403d7795.png",
+    "static/media/serie52_horizon_rpt_vep.png": "/static/media/serie52_horizon_rpt_vep.18406c9bbae4d5cbd18c.png",
+    "static/media/serie_tw60_confort.png": "/static/media/serie_tw60_confort.eb66f0cd7c35403d7795.png",
+    "static/media/serie_ex45_prestige.png": "/static/media/serie_ex45_prestige.ced783c89a6a6057fb99.png",
     "static/media/1.jpg": "/static/media/1.8cd79aa24fda425db61f.jpg",
-    "static/media/40_elipse.png": "/static/media/40_elipse.23065a30ff52d22f386c.png",
+    "static/media/serie_ex60_prestige_ligne_elliptique.png": "/static/media/serie_ex60_prestige_ligne_elliptique.f012ed77a39c4b5c6f71.png",
+    "static/media/serie52_horizon_th.png": "/static/media/serie52_horizon_th.cc0f987aaf31d9e0b764.png",
+    "static/media/serie_160_confort.png": "/static/media/serie_160_confort.0eadc35cdc0ba106cb62.png",
+    "static/media/serie_ex60_prestige_ligne_droite.png": "/static/media/serie_ex60_prestige_ligne_droite.f570b118fa415108af8a.png",
+    "static/media/serie_67_ellipse.png": "/static/media/serie_67_ellipse.b13799a55872005c1655.png",
+    "static/media/serie_40_elipse.png": "/static/media/serie_40_elipse.23065a30ff52d22f386c.png",
+    "static/media/serie-brise-soleil.png": "/static/media/serie-brise-soleil.f5ece876d65b9cbd85d9.png",
+    "static/media/cloisons_lisses_structure_visible.png": "/static/media/cloisons_lisses_structure_visible.3a522f163b4c2666166d.png",
+    "static/media/serie_ts60_confort.png": "/static/media/serie_ts60_confort.11f428cff27f32fd0083.png",
+    "static/media/serie_22_ellipse.png": "/static/media/serie_22_ellipse.2ae551ac342e9a0066d1.png",
+    "static/media/fenetre_jalousie_tpr.png": "/static/media/fenetre_jalousie_tpr.2b3cbbbe7e3068463f8f.png",
     "static/media/C1.jpg": "/static/media/C1.8cd17274ec3f13360a77.jpg",
     "static/media/C3.jpg": "/static/media/C3.a9cb79310583e727ac3d.jpg",
     "static/media/C2.jpg": "/static/media/C2.aed3decb04eee671c2fd.jpg",
     "static/media/logocja.jpg": "/static/media/logocja.fadcf3cf025e484d78a8.jpg",
     "index.html": "/index.html",
-    "main.7e8368e8.css.map": "/static/css/main.7e8368e8.css.map",
-    "main.6fdd69f9.js.map": "/static/js/main.6fdd69f9.js.map"
+    "main.899ded75.css.map": "/static/css/main.899ded75.css.map",
+    "main.6a70ce9f.js.map": "/static/js/main.6a70ce9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e8368e8.css",
-    "static/js/main.6fdd69f9.js"
+    "static/css/main.899ded75.css",
+    "static/js/main.6a70ce9f.js"
   ]
 }
