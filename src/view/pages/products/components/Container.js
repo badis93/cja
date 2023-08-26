@@ -85,7 +85,7 @@ const Containers = () => {
                       </div>
                       <div className="card-body content p-4">
                         <a
-                          href="property-detail.html"
+                          onClick={() => goTo(element.id)}
                           className="text-dark product-name h6 d-flex justify-content-center"
                         >
                           {element.name}
@@ -116,7 +116,7 @@ const Containers = () => {
                       </div>
                       <div className="card-body content p-4">
                         <a
-                          href="property-detail.html"
+                          onClick={() => goTo(element.id)}
                           className="text-dark product-name h6 d-flex justify-content-center"
                         >
                           {element.name}
@@ -147,7 +147,7 @@ const Containers = () => {
                       </div>
                       <div className="card-body content p-4">
                         <a
-                          href="property-detail.html"
+                          onClick={() => goTo(element.id)}
                           className="text-dark product-name h6 d-flex justify-content-center"
                         >
                           {element.name}
@@ -178,7 +178,7 @@ const Containers = () => {
                       </div>
                       <div className="card-body content p-4">
                         <a
-                          href="property-detail.html"
+                          onClick={() => goTo(element.id)}
                           className="text-dark product-name h6 d-flex justify-content-center"
                         >
                           {element.name}
@@ -209,7 +209,7 @@ const Containers = () => {
                       </div>
                       <div className="card-body content p-4">
                         <a
-                          href="property-detail.html"
+                          onClick={() => goTo(element.id)}
                           className="text-dark product-name h6 d-flex justify-content-center"
                         >
                           {element.name}
