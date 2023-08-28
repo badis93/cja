@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.899ded75.css",
-    "main.js": "/static/js/main.6a70ce9f.js",
+    "main.css": "/static/css/main.d4644693.css",
+    "main.js": "/static/js/main.42ce5e46.js",
     "static/media/cloisons_lisses_joint_creux.png": "/static/media/cloisons_lisses_joint_creux.595a54baba1192e205e1.png",
     "static/media/serie-volets-coulissants.png": "/static/media/serie-volets-coulissants.308345a55c2449bd3e87.png",
     "static/media/serie-grille-de-ventilation.png": "/static/media/serie-grille-de-ventilation.71402609bc7a3cc008aa.png",
@@ -35,11 +35,11 @@
     "static/media/C2.jpg": "/static/media/C2.aed3decb04eee671c2fd.jpg",
     "static/media/logocja.jpg": "/static/media/logocja.fadcf3cf025e484d78a8.jpg",
     "index.html": "/index.html",
-    "main.899ded75.css.map": "/static/css/main.899ded75.css.map",
-    "main.6a70ce9f.js.map": "/static/js/main.6a70ce9f.js.map"
+    "main.d4644693.css.map": "/static/css/main.d4644693.css.map",
+    "main.42ce5e46.js.map": "/static/js/main.42ce5e46.js.map"
   },
   "entrypoints": [
-    "static/css/main.899ded75.css",
-    "static/js/main.6a70ce9f.js"
+    "static/css/main.d4644693.css",
+    "static/js/main.42ce5e46.js"
   ]
 }

@@ -17,18 +17,47 @@ const Navbar = () => {
 
   const navlink = (path) => {
     navigate(path);
-    toggleMenu();
+    setIsMenuOpen(true);
   };
 
   const [isSubSubMenuOpen, setIsSubSubMenuOpen] = useState(false);
 
-  const toggleSubSubMenu = () => {
-    setIsSubSubMenuOpen(!isSubSubMenuOpen);
-  };
+  // const toggleSubSubMenu = () => {
+  //   setIsSubSubMenuOpen(!isSubSubMenuOpen);
+  // };
   const [navBg, setNavBg] = useState(false);
 
   const changeNavBg = () => {
     window.scrollY >= 80 ? setNavBg(true) : setNavBg(false);
+    setIsMenuOpen(true);
+  };
+  const [activeClassId, setActiveClassId] = useState(1);
+
+  const portf_list = [
+    {
+      id: 1,
+      name: "ACCUEIL",
+      path: "/",
+    },
+    {
+      id: 2,
+      name: "A PROPOS",
+      path: "/apropos",
+    },
+    {
+      id: 3,
+      name: "PRODUITS",
+      path: "/produits",
+    },
+    {
+      id: 4,
+      name: "CONTACT",
+      path: "/contact",
+    },
+  ];
+  const handleClick = (id, path) => {
+    setActiveClassId(id);
+    navlink(path);
   };
 
   useEffect(() => {
@@ -92,40 +121,18 @@ const Navbar = () => {
         <div id="navigation" style={{ display: isMenuOpen ? "none" : "block" }}>
           {/* Navigation Menu*/}
           <ul className="navigation-menu nav-light">
-            <li className="active">
-              <a
-                onClick={() => navlink("/")}
-                className="sub-menu-item active cursor-pointer"
+            {portf_list.map((item) => (
+              <li
+                onClick={() => handleClick(item.id, item.path)}
+                className={activeClassId === item.id ? "active" : ""}
               >
-                Accueil
-              </a>
-            </li>
-            <li>
-              <a
-                onClick={() => navlink("/apropos")}
-                className="sub-menu-item cursor-pointer"
-              >
-                {" "}
-                A propos
-              </a>
-            </li>
-            <li>
-              <a
-                onClick={() => navlink("/produits")}
-                className="sub-menu-item cursor-pointer"
-              >
-                {" "}
-                Produits
-              </a>
-            </li>
-            <li>
-              <a
-                onClick={() => navlink("/contact")}
-                className="sub-menu-item cursor-pointer"
-              >
-                Contact
-              </a>
-            </li>
+                <a className="sub-menu-item active cursor-pointer">
+                  {item.name}
+                </a>
+              </li>
+            ))}
+
+
           </ul>
           {/*end navigation menu*/}
         </div>
