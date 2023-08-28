@@ -27,31 +27,31 @@ const Headerswiper = () => {
         <SwiperSlide>
           <img
             src={require("../../../../img/c1.jpg")}
-            style={{ width: "100%", height: "500px" }}
+            style={{ width: "100%", height: "400px" }}
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             src={require("../../../../img/c2.jpg")}
-            style={{ width: "100%", height: "500px" }}
+            style={{ width: "100%", height: "400px" }}
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             src={require("../../../../img/c3.jpg")}
-            style={{ width: "100%", height: "500px" }}
+            style={{ width: "100%", height: "400px" }}
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             src={require("../../../../img/c4.jpg")}
-            style={{ width: "100%", height: "500px" }}
+            style={{ width: "100%", height: "400px" }}
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
             src={require("../../../../img/c5.jpg")}
-            style={{ width: "100%", height: "500px" }}
+            style={{ width: "100%", height: "400px" }}
           />
         </SwiperSlide>
       </Swiper>
