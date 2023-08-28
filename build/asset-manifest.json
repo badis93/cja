@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d4644693.css",
-    "main.js": "/static/js/main.42ce5e46.js",
+    "main.css": "/static/css/main.c536e182.css",
+    "main.js": "/static/js/main.4cacd009.js",
     "static/media/cloisons_lisses_joint_creux.png": "/static/media/cloisons_lisses_joint_creux.595a54baba1192e205e1.png",
     "static/media/serie-volets-coulissants.png": "/static/media/serie-volets-coulissants.308345a55c2449bd3e87.png",
     "static/media/serie-grille-de-ventilation.png": "/static/media/serie-grille-de-ventilation.71402609bc7a3cc008aa.png",
@@ -30,16 +30,18 @@
     "static/media/serie_ts60_confort.png": "/static/media/serie_ts60_confort.11f428cff27f32fd0083.png",
     "static/media/serie_22_ellipse.png": "/static/media/serie_22_ellipse.2ae551ac342e9a0066d1.png",
     "static/media/fenetre_jalousie_tpr.png": "/static/media/fenetre_jalousie_tpr.2b3cbbbe7e3068463f8f.png",
-    "static/media/C1.jpg": "/static/media/C1.8cd17274ec3f13360a77.jpg",
-    "static/media/C3.jpg": "/static/media/C3.a9cb79310583e727ac3d.jpg",
-    "static/media/C2.jpg": "/static/media/C2.aed3decb04eee671c2fd.jpg",
+    "static/media/c4.jpg": "/static/media/c4.e4bcb359e934b88a6cfa.jpg",
+    "static/media/c5.jpg": "/static/media/c5.dddaae8e7db9a0efe38b.jpg",
+    "static/media/c2.jpg": "/static/media/c2.afe5f3fe9f57d34f9a61.jpg",
+    "static/media/c3.jpg": "/static/media/c3.241464fde5d572569b1e.jpg",
+    "static/media/c1.jpg": "/static/media/c1.b4f755958a0b407693ae.jpg",
     "static/media/logocja.jpg": "/static/media/logocja.fadcf3cf025e484d78a8.jpg",
     "index.html": "/index.html",
-    "main.d4644693.css.map": "/static/css/main.d4644693.css.map",
-    "main.42ce5e46.js.map": "/static/js/main.42ce5e46.js.map"
+    "main.c536e182.css.map": "/static/css/main.c536e182.css.map",
+    "main.4cacd009.js.map": "/static/js/main.4cacd009.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4644693.css",
-    "static/js/main.42ce5e46.js"
+    "static/css/main.c536e182.css",
+    "static/js/main.4cacd009.js"
   ]
 }
