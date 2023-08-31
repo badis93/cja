@@ -21,12 +21,21 @@ import seriebrise from "../img/serie-brise-soleil.png";
 import fenetrejalousie from "../img/fenetre_jalousie_tpr.png";
 import pergolebioclimatique from "../img/pergola_bioclimatique_tpr19.png";
 import gardecorps from "../img/garde_corps_encastre_gs.png";
+import moteur1 from "../img/kit_de_remplacement.png";
+import moteur2 from "../img/kitdemotorisation.png";
+import moteur3 from "../img/rs100_solar_io.png";
+import p1 from "../img/alba_key_cremone.png";
+import p2 from "../img/micro_key_cremone.png";
+import p3 from "../img/luna_key_cremone130_external_fixing.png";
+import p4 from "../img/handlinga_and_flat_catch_handle.png";
+import p5 from "../img/connector9mm.png";
 
 // 1 : Battante / 2 : Rideaux / 3 : Coulissante / 4 : Autres
 export const ProductList = [
   {
     id: 1,
     type: 2,
+    productType: 1,
     img: serie52horrptvep,
     name: "SÉRIE 52 HORIZON+ RPT VEP",
     title: "Système de Façade Rideau à Rupture de Pont Thermique VEP",
@@ -48,6 +57,7 @@ export const ProductList = [
   {
     id: 2,
     type: 2,
+    productType: 1,
     img: serie52horvec,
     name: "SÉRIE 52 HORIZON+ VEC",
     describtion1: "",
@@ -62,6 +72,7 @@ export const ProductList = [
   {
     id: 3,
     type: 2,
+    productType: 1,
     img: serie52horth,
     name: "SÉRIE 52 HORIZON+ TH",
     describtion1: "",
@@ -77,6 +88,7 @@ export const ProductList = [
   {
     id: 4,
     type: 1,
+    productType: 1,
     img: serie40,
     name: "SÉRIE 40 ELLIPSE",
     describtion1: "",
@@ -91,6 +103,7 @@ export const ProductList = [
   {
     id: 5,
     type: 1,
+    productType: 1,
     img: serie75,
     name: "SÉRIE 75 BLINDÉE",
     describtion1: "",
@@ -105,6 +118,7 @@ export const ProductList = [
   {
     id: 6,
     type: 1,
+    productType: 1,
     img: serie45,
     name: "SÉRIE EX45 PRESTIGE",
     describtion1: "",
@@ -119,6 +133,7 @@ export const ProductList = [
   {
     id: 7,
     type: 1,
+    productType: 1,
     img: serietw60,
     name: "SÉRIE TW60 CONFORT",
     describtion1: "",
@@ -133,6 +148,7 @@ export const ProductList = [
   {
     id: 8,
     type: 3,
+    productType: 1,
     img: serie22,
     name: "SÉRIE 22 ELLIPSE",
     title: "Fenêtres et Porte-Fenêtres Coulissantes",
@@ -148,6 +164,7 @@ export const ProductList = [
   {
     id: 9,
     type: 3,
+    productType: 1,
     img: serie67,
     name: "SÉRIE 67 ELLIPSE",
     describtion1: "",
@@ -162,6 +179,7 @@ export const ProductList = [
   {
     id: 10,
     type: 3,
+    productType: 1,
     img: serie160,
     name: "SÉRIE 160 CONFORT",
     describtion1: "",
@@ -176,6 +194,7 @@ export const ProductList = [
   {
     id: 10,
     type: 3,
+    productType: 1,
     img: serieex60,
     name: "SÉRIE EX60 PRESTIGE LIGNE DROITE",
     describtion1: "",
@@ -190,6 +209,7 @@ export const ProductList = [
   {
     id: 10,
     type: 3,
+    productType: 1,
     img: serieex60el,
     name: "SÉRIE EX60 PRESTIGE LIGNE ELLIPTIQUE",
     describtion1: "",
@@ -204,6 +224,7 @@ export const ProductList = [
   {
     id: 10,
     type: 3,
+    productType: 1,
     img: seriets60,
     name: "SÉRIE TS60 CONFORT",
     describtion1: "",
@@ -218,6 +239,7 @@ export const ProductList = [
   {
     id: 11,
     type: 2,
+    productType: 1,
     img: serie84evo,
     name: "SÉRIE 84 EVOLUTION VEC",
     describtion1: "",
@@ -232,6 +254,7 @@ export const ProductList = [
   {
     id: 12,
     type: 4,
+    productType: 1,
     img: cloisonsjointcreux,
     name: "SÉRIE 16 ELLIPSE VISIBLE",
     describtion1: "",
@@ -246,6 +269,7 @@ export const ProductList = [
   {
     id: 13,
     type: 4,
+    productType: 1,
     img: cloisonsstructure,
     name: "SÉRIE 16 ELLIPSE CREUX",
     describtion1: "",
@@ -260,6 +284,7 @@ export const ProductList = [
   {
     id: 14,
     type: 4,
+    productType: 1,
     img: serievolets,
     name: "SÉRIE VOLETS COULISSANTS",
     describtion1: "",
@@ -274,6 +299,7 @@ export const ProductList = [
   {
     id: 15,
     type: 4,
+    productType: 1,
     img: seriegrille,
     name: "SÉRIE GRILLE DE VENTILATION",
     describtion1: "",
@@ -288,6 +314,7 @@ export const ProductList = [
   {
     id: 16,
     type: 4,
+    productType: 1,
     img: serie15ellipse,
     name: "SÉRIE 15 ELLIPSE",
     describtion1: "",
@@ -302,6 +329,7 @@ export const ProductList = [
   {
     id: 17,
     type: 4,
+    productType: 1,
     img: seriebrise,
     name: "SÉRIE BRISE SOLEIL",
     describtion1: "",
@@ -316,6 +344,7 @@ export const ProductList = [
   {
     id: 18,
     type: 4,
+    productType: 1,
     img: fenetrejalousie,
     name: "FENÊTRE JALOUSIE TPR",
     describtion1: "",
@@ -330,6 +359,7 @@ export const ProductList = [
   {
     id: 19,
     type: 4,
+    productType: 1,
     img: pergolebioclimatique,
     name: "PERGOLA BIOCLIMATIQUE TPR 19",
     describtion1: "",
@@ -344,8 +374,129 @@ export const ProductList = [
   {
     id: 20,
     type: 4,
+    productType: 1,
     img: gardecorps,
     name: "GARDE CORPS ENCASTRÉ GS 85",
+    describtion1: "",
+    describtion2: "",
+    describtion3: "",
+    describtion4: "",
+    describtion5: "",
+    describtion6: "",
+    describtion7: "",
+    describtion8: "",
+  },
+  {
+    id: 21,
+    type: 1,
+    productType: 2,
+    img: moteur1,
+    name: "KIT DE Remplacement",
+    describtion1: "",
+    describtion2: "",
+    describtion3: "",
+    describtion4: "",
+    describtion5: "",
+    describtion6: "",
+    describtion7: "",
+    describtion8: "",
+  },
+  {
+    id: 22,
+    type: 2,
+    productType: 2,
+    img: moteur2,
+    name: "KIT DE Motorisation",
+    describtion1: "",
+    describtion2: "",
+    describtion3: "",
+    describtion4: "",
+    describtion5: "",
+    describtion6: "",
+    describtion7: "",
+    describtion8: "",
+  },
+  {
+    id: 23,
+    type: 3,
+    productType: 2,
+    img: moteur3,
+    name: "RS 100 SOLAR IO",
+    describtion1: "",
+    describtion2: "",
+    describtion3: "",
+    describtion4: "",
+    describtion5: "",
+    describtion6: "",
+    describtion7: "",
+    describtion8: "",
+  },
+  {
+    id: 24,
+    type: 1,
+    productType: 3,
+    img: p1,
+    name: "alba_key_cremone",
+    describtion1: "",
+    describtion2: "",
+    describtion3: "",
+    describtion4: "",
+    describtion5: "",
+    describtion6: "",
+    describtion7: "",
+    describtion8: "",
+  },
+  {
+    id: 25,
+    type: 2,
+    productType: 3,
+    img: p2,
+    name: "micro_key_cremone",
+    describtion1: "",
+    describtion2: "",
+    describtion3: "",
+    describtion4: "",
+    describtion5: "",
+    describtion6: "",
+    describtion7: "",
+    describtion8: "",
+  },
+  {
+    id: 26,
+    type: 3,
+    productType: 3,
+    img: p3,
+    name: "luna_key_cremone130_external_fixing",
+    describtion1: "",
+    describtion2: "",
+    describtion3: "",
+    describtion4: "",
+    describtion5: "",
+    describtion6: "",
+    describtion7: "",
+    describtion8: "",
+  },
+  {
+    id: 27,
+    type: 4,
+    productType: 3,
+    img: p4,
+    name: "handlinga_and_flat_catch_handle",
+    describtion1: "",
+    describtion2: "",
+    describtion3: "",
+    describtion4: "",
+    describtion5: "",
+    describtion6: "",
+    describtion7: "",
+    describtion8: "",
+  },
+  {
+    id: 28,
+    type: 2,
+    productType: 3,
+    img: p5,
+    name: "connector9mm",
     describtion1: "",
     describtion2: "",
     describtion3: "",

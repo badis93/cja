@@ -7,12 +7,9 @@ const WhoWeAre = () => {
         <div className="container">
           <div className="row align-items-center" id="counter">
             <div className="col-md-6">
-              <img
-                src="assets/images/company/about2.png"
-                className="img-fluid"
-                alt=""
-              />
+           
             </div>
+
             {/*end col*/}
             <div className="col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
               <div className="ms-lg-4">
@@ -58,7 +55,7 @@ const WhoWeAre = () => {
           <div className="row justify-content-center">
             <div className="col-lg-2 col-md-2 col-6 text-center pt-4">
               <img
-                src="assets/images/client/amazon.svg"
+                src={require("../../../../img/1.jpg")}
                 className="avatar avatar-ex-sm"
                 alt=""
               />
@@ -66,7 +63,7 @@ const WhoWeAre = () => {
             {/*end col*/}
             <div className="col-lg-2 col-md-2 col-6 text-center pt-4">
               <img
-                src="assets/images/client/google.svg"
+                src={require("../../../../img/1.jpg")}
                 className="avatar avatar-ex-sm"
                 alt=""
               />
@@ -74,7 +71,7 @@ const WhoWeAre = () => {
             {/*end col*/}
             <div className="col-lg-2 col-md-2 col-6 text-center pt-4">
               <img
-                src="assets/images/client/lenovo.svg"
+                src={require("../../../../img/1.jpg")}
                 className="avatar avatar-ex-sm"
                 alt=""
               />
@@ -82,7 +79,7 @@ const WhoWeAre = () => {
             {/*end col*/}
             <div className="col-lg-2 col-md-2 col-6 text-center pt-4">
               <img
-                src="assets/images/client/paypal.svg"
+                src={require("../../../../img/2.jpg")}
                 className="avatar avatar-ex-sm"
                 alt=""
               />
@@ -90,7 +87,7 @@ const WhoWeAre = () => {
             {/*end col*/}
             <div className="col-lg-2 col-md-2 col-6 text-center pt-4">
               <img
-                src="assets/images/client/shopify.svg"
+                src={require("../../../../img/3.jpg")}
                 className="avatar avatar-ex-sm"
                 alt=""
               />
@@ -98,7 +95,7 @@ const WhoWeAre = () => {
             {/*end col*/}
             <div className="col-lg-2 col-md-2 col-6 text-center pt-4">
               <img
-                src="assets/images/client/spotify.svg"
+                src={require("../../../../img/1.jpg")}
                 className="avatar avatar-ex-sm"
                 alt=""
               />
